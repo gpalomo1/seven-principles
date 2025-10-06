@@ -1,0 +1,137 @@
+body {
+    background: url("../seven-principles-3/letters.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: avenir;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#intro {
+    background-image: linear-gradient(white, rgb(255, 255, 215), rgb(254, 228, 180), rgb(255, 222, 228), rgb(255, 214, 255), rgb(200, 200, 255));
+}
+
+#harmony {
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#intro .content-wrapper {
+    padding: 80px 0;
+}
+
+h1 {
+    color: rgb(43, 120, 99); 
+    text-align: center;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 200;
+    font-style: none;
+    font-size: 40px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.fancy {
+    color: rgb(229, 77, 163);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    font-style: none;
+    font-size: 70px;
+}
+
+.fancy-2 {
+    color: rgb(109, 75, 16);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    font-style: none;
+    font-size: 70px;
+    text-decoration: none;
+    background: rgb(255, 236, 243);
+    border: 3px dashed rgb(109, 75, 16);
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.fancy-2:hover {
+    color: white;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 60px;
+    text-decoration: none;
+    background-color: rgb(16, 153, 244);
+    border: 2px solid rgb(16, 153, 244);
+}
+
+
+em {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(101, 68, 158);
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(101, 68, 158);
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+h4 {
+    color: rgb(229, 77, 163);
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(229, 77, 163);
+    border: 1px solid rgb(229, 77, 163);
+    border-radius: 12px 12px;
+    padding: 1.5px;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(101, 68, 158);
+    border: 1px solid rgb(101, 68, 158);
+}
+
+main {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 25px;
+    text-align: justify;
+    display: block;
+};
+
+
+
